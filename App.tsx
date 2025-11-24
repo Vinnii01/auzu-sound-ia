@@ -31,7 +31,7 @@ export default function App() {
         
         {/* Título Atualizado */}
         <Text style={styles.header}>AUZU Sound IA 🎛️</Text>
-        <Text style={styles.subtitle}>Seu assistente de produção musical</Text>
+        <Text style={styles.subtitle}>Seu assistente de produção musical v2.0</Text>
 
         <View style={styles.card}>
           <Text style={styles.label}>Gênero Musical</Text>
@@ -155,4 +155,5 @@ const styles = StyleSheet.create({
     fontSize: 15,
     lineHeight: 22,
   },
+
 });
